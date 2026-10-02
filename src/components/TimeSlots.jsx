@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { timeSlots } from "../data/timeSlots";
-import BookingForm from "./BookingForm";
 
 function TimeSlots() {
   const [selectedTime, setSelectedTime] = useState(null);
